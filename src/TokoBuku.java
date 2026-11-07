@@ -1,6 +1,9 @@
 import java.util.Scanner;
 public class TokoBuku {
     public static void main(String[] args) {
+
+        //Array bertipe Buku yang diisi tiga objek.
+        // Ini boleh karena BukuCetak dan BukuDigital adalah Buku.
         Buku[] keranjang = {
                 new BukuCetak("Pemrograman Java", "John Doe", 120000, 750),
                 new BukuCetak("Algoritma Dasar", "Jane Smith", 95000, 400),
